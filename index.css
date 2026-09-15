@@ -1,0 +1,54 @@
+.nav-item a:hover{
+    color: aqua !important;
+    transform: scale(1.05);
+}
+
+.navbar-nav{
+    gap: 20px;
+}
+
+.navbar-brand{
+    margin-left: 40px;
+}
+
+.navbar-brand:hover{
+    color: blueviolet  !important;
+    transform: scale(1.08);
+}
+
+.home-title{
+    position: relative;
+    color: blue !important;
+    animation: name 2s infinite;
+}
+
+@keyframes name{
+    from{
+        left: 0px;
+    }
+    to{
+        left: 200px;
+    }
+}
+
+.btn:hover, .icon a i:hover{
+    transform: scale(1.1);
+}
+
+.skill div div i{
+    position: relative;
+    animation: skill 3s infinite;
+}
+
+@keyframes skill {
+    from{
+        left:100px;
+    }
+    to{
+        left: -100px;
+    }
+}
+
+.img-fluid:hover{
+    transform: scale(1.15);
+}

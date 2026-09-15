@@ -1,0 +1,175 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+    <title>Projects</title>
+  </head>
+  <body>
+       <nav class="navbar navbar-expand-lg bg-dark text-white">
+        <div class="container-fluid p-2 fs-4">
+          <a class="navbar-brand fw-bold fs-3 text-white" href="/portfolio/Home.html">Akash Bhosale</a>
+          <button
+            class="navbar-toggler navbar-dark"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav fw-bold ">
+              <li class="nav-item">
+                <a
+                  class="nav-link active text-white"
+                  aria-current="page"
+                  href="/portfolio/Main.html"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="/portfolio/AboutMe.html"
+                  >About Me</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="/portfolio/Education.html"
+                  >Education</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="/portfolio/Experience.html"
+                  >Experience</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="/portfolio/Project.html"
+                  >Projects</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="/portfolio/Skills.html"
+                  >Skills</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="/portfolio/Contact.html"
+                  >Contact</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    <div class="container mt-4">
+      <div class="card mb-3" style="max-width: 1100px">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img
+              src="/portfolio/project1.jpg"
+              class="img-fluid rounded-start h-100 w-100"
+              alt="project information picture"
+            />
+          </div>
+          <div class="col-md-8">
+            <div class="card-body bg-danger-subtle">
+              <h5 class="card-title">Insurance Australia Group (IAG)</h5>
+              <ul class="card-text" style="text-align: justify">
+                <li>
+                  Built responsive ReactJS + TypeScript UI components directly
+                  from Figma design specs for quote generation, policy
+                  management, and claims submission flows, ensuring
+                  pixel-perfect, cross-browser-compatible implementation.
+                </li>
+                <li>
+                  Integrated Node.js backend APIs to power end-to-end insurance
+                  user journeys, coordinating closely with backend engineers on
+                  contract design.
+                </li>
+                <li>
+                  Decoupled a monolithic codebase into independently deployable
+                  micro-frontend modules, reducing cross-team release
+                  dependencies.
+                </li>
+                <li>
+                  Managed application state using Zustand for lightweight,
+                  scalable state handling across micro-frontend modules,
+                  reducing boilerplate compared to traditional state management
+                  approaches.
+                </li>
+                <li>
+                  Wired ESLint and automated coverage thresholds into the
+                  Jenkins pipeline as hard gates before production deployment.
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card mb-3" style="max-width: 1100px">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img
+              src="/portfolio/project2.jpg"
+              class="img-fluid rounded-start h-100 w-100"
+              alt="project information picture"
+            />
+          </div>
+          <div class="col-md-8">
+            <div class="card-body bg-danger-subtle">
+              <h5 class="card-title">
+                Wyndham Hotels & Resorts – Authentication & Performance Platform
+              </h5>
+              <ul class="card-text" style="text-align: justify">
+                <li>
+                  Built ReactJS front-end flows for authentication and session
+                  management, supporting thousands of concurrent user sessions
+                  with high reliability.
+                </li>
+                <li>
+                  Implemented centralized state management using Redux and Redux
+                  Toolkit to handle complex, multi-view application data flows
+                  across authentication and session screens.
+                </li>
+                <li>
+                  Developed Jest unit test suites with mocked AWS SDK calls,
+                  achieving high code coverage and enabling safe, continuous
+                  deployment of frontend and API changes.
+                </li>
+                <li>
+                  Standardized structured JSON response handling across
+                  microservices consumed by the frontend, reducing integration
+                  bugs by 40%.
+                </li>
+                <li>
+                  Engineered supporting AWS Lambda functions and a centralized
+                  CloudWatch log analysis pipeline for proactive performance
+                  monitoring and error detection.
+                </li>
+                <li>
+                  Configured CI/CD pipelines via GitHub Actions, enabling
+                  automated testing and zero-downtime deployments.
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
